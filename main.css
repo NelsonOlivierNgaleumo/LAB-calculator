@@ -1,0 +1,128 @@
+body{
+  background-color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+#container {
+  width: 400px;
+  height: 590px;
+  margin-top: 150px;
+  border: 1px solid black;
+}
+
+.display {
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: end;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    width: 380px;
+    height: 40px;
+}
+
+.orange {
+  color: white;
+  font-size: 40px;
+  min-width: 100px;
+  height: 100px;
+  background-color: #df874c;
+  border: 1px solid black;
+}
+
+.grey {
+  font-size: 40px;
+  width: 200px;
+  height: 100px;
+}
+
+.greyL {
+  font-size: 40px;
+  width: 420px;
+  height: 100px;
+}
+
+.greyXL {
+  font-size: 40px;
+  width: 300px;
+  height: 100px;
+}
+
+.row1 {
+  display: flex;
+  justify-content: center;
+  font-size: 0;
+  width: 400px;
+  height: 100px;
+}
+
+.row2 {
+  display: flex;
+  width: 400px;
+  height: 100px;
+}
+
+.row3 {
+  display: flex;
+  width: 400px;
+  height: 100px;
+}
+
+.row4 {
+  display: flex;
+  width: 400px;
+  height: 100px;
+}
+
+.row4 {
+  display: flex;
+  width: 400px;
+  height: 100px;
+.container {
+  max-width: 400px;
+  margin: 10vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px  rgba(153, 153, 153, 1);
+}
+
+#display{
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+    padding: 25px;
+
+}
+
+.buttons {
+display: grid;
+border-bottom: 1px solid #999;
+border-left: 1px solid #999;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons > dic {
+  border-top: 1px solid #999;
+  border-right: 1px solid #999;
+
+}
+
+.button {
+  border: 0.5px solid #999;
+  line-height: 100px;
+  text-align: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+#equal
+{
+  background-color: #5555ff;
+  color: rgb(52, 77, 161);
+}
